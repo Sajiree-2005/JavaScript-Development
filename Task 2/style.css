@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+.calculator {
+  backdrop-filter: blur(15px); /* This creates a frosted glass effect */
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5); /* This creates a subtle shadow */
+  width: 300px;
+}
+#display {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-align: right;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: none;
+  outline: none; /* Remove default focus outline */
+  background: rgba(0, 0, 0, 0.3);
+  color: #00f3ff;
+  font-family: "Consolas", monospace;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+button {
+  height: 55px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px); /* Subtle lift on hover */
+}
+.operator {
+  background: #3b82f6;
+}
+.operator:hover {
+  background: #2563eb;
+}
+.equals {
+  background: #10b981;
+  grid-column: span 2;
+}
+.equals:hover {
+  background: #059669;
+}
+.clear {
+  background: #ef4444;
+}
+.clear:hover {
+  background: #dc2626;
+}
+button:active {
+  transform: scale(0.95); /* Slightly shrink the button on click */
+}
