@@ -76,8 +76,9 @@ A demo video explaining these projects has been shared on LinkedIn as well as on
 
 ## 🔗 Links
 
-- LinkedIn Post :
 - Demo Video :
+- Task 1 : https://youtu.be/7t_YcrE2BoM
+- Task 2 : 
 
 ---
 
