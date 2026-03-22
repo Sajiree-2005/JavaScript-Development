@@ -77,8 +77,8 @@ A demo video explaining these projects has been shared on LinkedIn as well as on
 ## 🔗 Links
 
 - Demo Video :
-- Task 1 : https://youtu.be/7t_YcrE2BoM
-- Task 2 : 
+- Task 1 : [JavaScript Development Task 1](https://youtu.be/7t_YcrE2BoM)
+- Task 2 : [JavaScript Development Task 2](https://youtu.be/1ifYaxt_heA)
 
 ---
 
